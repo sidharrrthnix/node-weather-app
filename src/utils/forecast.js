@@ -35,7 +35,8 @@ const forecast = (latitude, longitude, callback) => {
             ". The chances of rain is " +
             body.current.precip +
             " %. The humidity is " +
-            body.current.humidity
+            body.current.humidity +
+            " %"
         );
       }
     }
